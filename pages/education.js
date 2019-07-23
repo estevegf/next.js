@@ -2,15 +2,15 @@ import React from "react";
 import Head from 'next/head'
 import Layout from "../components/Layout";
 
-const Index = () => (
+const Education = () => (
     <Layout>
         <Head>
-            <title>Home</title>
+            <title>Education</title>
         </Head>
         <div>
-            <h1>Hello Next.js</h1>
+            <h1>Hello Education Next.js</h1>
         </div>
     </Layout>
 );
 
-export default Index;
+export default Education;

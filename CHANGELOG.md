@@ -10,5 +10,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [v0.1.0; 23-07-2019]
 
 ### Added
+23/07/2019 - Code Structure
 23/07/2019 - Add CHANGELOG
 23/07/2019 - Create the project
