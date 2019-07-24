@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [v0.1.0; 23-07-2019]
 
 ### Added
+24/07/2019 - Added command to select the port for the server in production
 24/07/2019 - OUT Folder to export the project with `next export`
 24/07/2019 - API Call on Education page
 23/07/2019 - Code Structure
