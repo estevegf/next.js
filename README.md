@@ -8,12 +8,18 @@ This project was generated with:
 
 Run `npm run dev` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
+## Local test server (static file server)
+- `npm install -g serve`
+- `cd out`
+- `serve -p 8080`
+
 ## Production server (static content)
-- `npm run prod`
+- `npm run export`
 - `scp -r .\out> user@host:/home/user`
 - `ssh user@host`
 - configure VIRTUALHOST
 - configure WEB SERVER to handle routing if necessary.
+- reload webserver
 
 ## Production server (server-rendered)
 - `ssh user@host`
@@ -22,3 +28,5 @@ Run `npm run dev` for a dev server. Navigate to `http://localhost:3000/`. The ap
 - `npm install`
 - `npm run build`
 - `PORT=4000 pm2 start npm --name "next" -- run start-port`
+- configure VIRTUALHOST
+- reload webserver
