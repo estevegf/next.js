@@ -8,7 +8,7 @@ const Education = ({ stars }) => (
         <Head>
             <title>Education</title>
         </Head>
-        <div>
+        <div className={"bar-margin"}>
             <h1>Hello Education Next.js</h1>
             <p>Next.js have { stars } stars on github</p>
         </div>

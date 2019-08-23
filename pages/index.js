@@ -7,7 +7,7 @@ const Index = () => (
         <Head>
             <title>Home</title>
         </Head>
-        <div>
+        <div className={"bar-margin"}>
             <h1>Hello Next.js</h1>
         </div>
     </Layout>
