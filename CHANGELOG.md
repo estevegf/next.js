@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### [v0.1.0; 23-08-2019]
 
 #### Added
+- 24/08/2019: New component banner
 - 23/08/2019: New navbar layout
+- 23/08/2019: Update dependencies
 - 26/07/2019: Inspect JavaScript Bundles
 - 24/07/2019: README.md updated
 - 24/07/2019: Added command to select the port for the server in production

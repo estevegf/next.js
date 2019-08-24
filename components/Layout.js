@@ -2,12 +2,18 @@ import React from "react";
 import Nav from "./Nav";
 
 const Layout = (props) => (
-    <div className={"container"}>
-        <Nav/>
+    <div>
+        <header>
+            <Nav/>
+        </header>
         {props.children}
         <style global jsx>{`
+            body {
+                margin:0;
+            }    
+            
             .bar-margin {
-                margin-top: 55px;
+                margin-top: 50px;
             }
             
              @media (min-width: 600px) {
