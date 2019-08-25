@@ -10,16 +10,16 @@ const Layout = (props) => (
         <style global jsx>{`
             body {
                 margin:0;
-            }    
+            }
             
             .bar-margin {
                 margin-top: 50px;
             }
             
-             @media (min-width: 600px) {
-                .container {
-                    padding: 0 4em!important;
-                }
+            @media (min-width: 600px) {
+               .container {
+                   padding: 0 4em!important;
+               }
             }
             
             @media (min-width: 800px) {
@@ -28,9 +28,15 @@ const Layout = (props) => (
                 }
             }
             
-            @media (min-width: 1100px) {
+            @media (min-width: 1300px) {
                 .container {
-                    padding: 0 12em!important;
+                    padding: 0 14em!important;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                .l-6 {
+                    width: 50%!important;
                 }
             }
         `}</style>
