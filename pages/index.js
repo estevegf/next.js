@@ -35,7 +35,7 @@ const Index = () => {
                     </div>
 
                     <div className={"card l-6"}>
-                        <img className={"circular"} src="/static/experience-esteve.svg" height="120" alt="experience Funitec La Salle"/>
+                        <img className={"circular"} src="/static/experience-esteve.svg" height="120" alt="experience Uniks"/>
                         <div>
                             <h4>Frontend Developer - Uniks</h4>
                             <ul>
@@ -64,7 +64,7 @@ const Index = () => {
            
            @media (max-width: 600px) {
                .circular {
-                   margin: 1em 2em 1em 0em;
+                   margin: 1em 2em 1em 0;
                }
            }
            
