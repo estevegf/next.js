@@ -17,7 +17,7 @@ const Layout = (props) => (
             }
             
             .container {
-              padding: 1em;
+              padding: 0 1em;
             }
             
             @media (min-width: 600px) {
@@ -43,6 +43,7 @@ const Layout = (props) => (
                     width: 50%!important;
                 }
             }
+            
             @media (min-width: 501px) {
               .s-6 {
                 width: 50%!important;
@@ -55,7 +56,7 @@ const Layout = (props) => (
             }
             
             .center {
-                text-align: center;
+              text-align: center;
             }
         `}</style>
     </div>
