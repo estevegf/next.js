@@ -2,10 +2,7 @@ import React from "react";
 
 const Banner = ({ imageUrl }) => (
     <section className="banner bar-margin" style={{backgroundImage: `url(${imageUrl})`}}>
-        <div className="banner-content">
-            <h1>@estevegf</h1>
-            <p>Hello from my web</p>
-        </div>
+        <div className="banner-content"> </div>
 
         <style jsx>{`
             .banner {

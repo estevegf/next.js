@@ -6,17 +6,17 @@ import Banner from "../components/Banner";
 import Card from "../components/Card";
 
 const Education = ({ education }) => {
-    const educationBanner = "/static/banner.svg";
+    const educationBanner = "/static/banner_education.jpg";
 
     return (
     <Layout>
         <Head>
-            <title>Education</title>
+            <title>Education - Next.js</title>
         </Head>
         <Banner imageUrl={educationBanner}/>
-        <div className={"container"}>
-            <h2>Education</h2>
-            <section className={"center"}>
+        <div className="container">
+            <h1>Education</h1>
+            <section className="center">
                 {education.map((value, index) => {
                     return <Card key={index} education={value} />
                 })}

@@ -2,17 +2,19 @@ import Link from 'next/link';
 import React from "react";
 
 const Nav = () => (
-    <nav className={"fixed-top container"}>
+    <nav className="fixed-top container">
         <div>
             <Link href="/">
-                <a className={"nav-logo"}>
+                <a className="nav-logo">
                     <img src="/static/esteve-logo.svg" height="40" alt="esteve_logo"/>
                 </a>
             </Link>
         </div>
         <ul>
             <li>
-                <Link href="/education"><a className={"link-hover"}>EDUCATION</a></Link>
+                <Link href="/education"><a className="link-hover">
+                    <img className="icon-nav" src="/static/icono-education.svg" height="18" alt="education"/>EDUCATION</a>
+                </Link>
             </li>
         </ul>
 
@@ -37,6 +39,7 @@ const Nav = () => (
             .nav-logo {
                 display: inline-block;
                 margin-right: 1em;
+                padding: 6px 0 2px 0;
             }
              
             ul {
@@ -55,8 +58,16 @@ const Nav = () => (
                 text-decoration: none;
             }
             
+            .icon-nav {
+              margin-right: 5px;
+            }
+            
+            .link-hover {
+              display: flex;
+            }
+
             .link-hover:hover {
-                color: gray;
+                opacity: 0.6;
             }
         `}</style>
     </nav>

@@ -15,6 +15,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="icon" type="image/x-icon" href="../static/icono.ico" />
+                    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
                 </Head>
                 <body>
                     <Main />
