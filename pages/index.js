@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 
 const Index = () => {
-    const indexBanner  = "/static/banner_home.jpg";
+    const indexBanner  = "/static/banner_home-1920.webp";
 
     return (
     <Layout>

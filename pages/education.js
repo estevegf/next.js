@@ -6,7 +6,7 @@ import Banner from "../components/Banner";
 import Card from "../components/Card";
 
 const Education = ({ education }) => {
-    const educationBanner = "/static/banner_education.jpg";
+    const educationBanner = "/static/banner_education-1920.webp";
 
     return (
     <Layout>
