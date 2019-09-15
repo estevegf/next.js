@@ -1,9 +1,10 @@
 import React from "react";
+import "lazysizes";
 
 const Card = ({ education }) => (
     <div className="card">
         <div className="s-6 card-left">
-            <img src={education.img} className="responsive card-image" alt={education.school}/>
+            <img data-src={education.img} className="responsive card-image lazyload" alt={education.school}/>
         </div>
         <div className="s-6 card-right">
             <div className="information">
@@ -16,6 +17,7 @@ const Card = ({ education }) => (
             .card {
               display: inline-flex;
               width: 100%;
+              min-height: 229px;
               align-items: center;
               margin: 0 0 2em 0;
               background-color: gainsboro;

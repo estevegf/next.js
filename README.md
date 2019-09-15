@@ -14,9 +14,13 @@ Run `npm run dev` for a dev server. Navigate to `http://localhost:3000/`. The ap
 - `serve -p 8080`
 
 ## Production server (static content)
+- `npm run build`
 - `npm run export`
-- `scp -r .\out> user@host:/home/user`
+- `scp -r .\out <user>@<host>:/home/<user>`
 - `ssh user@host`
+- `mv dist /var/www/<folder-domain>/next-project`
+- `cd /var/www`
+- `sudo chown -R www-data:www-data <folder-domain>/`
 - configure VIRTUALHOST
 - configure WEB SERVER to handle routing if necessary.
 - reload webserver
